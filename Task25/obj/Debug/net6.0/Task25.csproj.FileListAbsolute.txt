@@ -1,0 +1,15 @@
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\Task25.exe
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\Task25.deps.json
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\Task25.runtimeconfig.json
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\Task25.dll
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\ref\Task25.dll
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\bin\Debug\net6.0\Task25.pdb
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.csproj.AssemblyReference.cache
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.AssemblyInfoInputs.cache
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.AssemblyInfo.cs
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.csproj.CoreCompileInputs.cache
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.dll
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\ref\Task25.dll
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.pdb
+C:\Users\ewgko\Documents\учёба в geekBrains\Introduction_programming_language_C#\domashka4_C#\Task25\obj\Debug\net6.0\Task25.genruntimeconfig.cache
