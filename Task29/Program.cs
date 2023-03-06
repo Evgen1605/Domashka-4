@@ -5,17 +5,30 @@
 // 6, 1, 33-> [6, 1, 33]
 
 Console.Clear();
-Console.Write("Введите число: ");
-int num = 8;
-int[] array = GetBinArray(num);
-Console.Write($"[{String.Join(", ", array)}]");
+Console.Write("Введите число: ");// просим пользователя ввести какое либо число
+int num = int.Parse(Console.ReadLine()!);// считываем это число и строку переводим в число 
+int[] array = GetArray(num, 1, 10);// создаём массив в который кладём результат работы функции GetArray с параметрами где num - это длина массива заданное пользователем, 1- минимальное значение, 10- максимальное (10 будет входить включительно, т.к в функции задали maxValue + 1)
+Console.Write($"[{String.Join(", ", array)}]");// выводим наш массив в консоль, метод .Join первым аргументом (в кавычках) принимает то что хотим вывести, например вместо запятой можно постаить любой знак ("! ", "@ ", "* ", "^ " и т.д)
 
-int[] GetBinArray(int size)
+
+// int[] GetBinArray(int size)
+// {
+//   int[] result = new int[size];
+//   for (int i = 0; i < size; i++)
+//   {
+//     result[i] = new Random().Next(1, 100);
+//   }
+//   return result;
+// }
+
+
+int[] GetArray(int size, int minValue, int maxValue)// создаём функцию, которая на вход принимает массив и возвращает рандомный массив на size элементов
 {
-  int[] result = new int[size];
-  for (int i = 0; i < size; i++)
-  {
-    result[i] = new Random().Next(1, 100);
+    int[] res = new int[size];// создали пустой массив в который положили size элементов
+
+    for (int i = 0; i < size; i++)// циклом перебираем массив
+    {
+        res[i] = new Random().Next(minValue, maxValue + 1);// при каждой итерации цикла кладём в массив какое то рандомное число, где minValue - это минимальное значение заданное в нашем случае пользователем, а maxValue + 1 - это максимальное значение +1 - означает что в максимальное значение будет положено заданное число включительно
   }
-  return result;
+    return res;//после окончания цикла возвращаем массив с результатом
 }

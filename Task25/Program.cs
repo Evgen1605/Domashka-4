@@ -11,11 +11,11 @@ Console.Write("Введите число B: ");
 int numB = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"{Exponentiation(numA, numB)}");
 
-int Exponentiation(int a, int b){
-  int result = 1;
-  for (int i = 1; i <= b; i++)
+int Exponentiation(int a, int b){// создали функцию которая на вход принимает 2 числа a и b например 2 и 4
+  int result = 1;// переменная result имеет значение 1, т.к если будет 0, то при * всегда будет результат 0, вторая итерация (result = 2), третья (result = 4), четвёртая(result = 8), записываем в result = 16  
+  for (int i = 1; i <= b; i++)// циклом перебирпем наши данные пока i менше или равно b например b=4- это будет 4 итерации и заканчивается цикл
   {
-    result *= a;
+    result *= a;// при каждой итерации цикла в result кладём предыдущий result умноженный на 2,  (1*2 =2 ), вторая (2*2=4), третья (4*2=8), четвёртая(8*2=16)
   }
-  return result;
+  return result;// возвращаем 16, после прохождения всего цикла
 }
